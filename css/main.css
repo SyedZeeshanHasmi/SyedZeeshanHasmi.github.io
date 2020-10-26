@@ -369,43 +369,208 @@ body {
   }
 }
 
-.image-area {
+.ads-image-area {
   width: 90%;
   margin: 70px auto;
 }
-.image-area .ads-others {
+.ads-image-area .ads-others {
   width: 80%;
   display: block;
   margin: 0 auto;
 }
-.image-area .ads-mobile {
+.ads-image-area .ads-mobile {
   display: none;
 }
 
 @media all and (max-width: 415px) {
-  .image-area {
+  .ads-image-area {
     width: 100%;
     margin: 50px auto;
     text-align: center;
     overflow-x: hidden;
   }
-  .image-area .ads-mobile {
+  .ads-image-area .ads-mobile {
     display: block;
     width: 100%;
     margin: 0 auto;
   }
-  .image-area .ads-others {
+  .ads-image-area .ads-others {
     display: none;
   }
 }
 @media all and (min-width: 415px) and (max-width: 1387px) {
-  .image-area {
+  .ads-image-area {
     width: 90%;
     margin: 70px auto;
   }
-  .image-area img {
+  .ads-image-area img {
     display: block;
     width: 80%;
+    margin: 0 auto;
+  }
+}
+.section-five {
+  margin-top: 150px;
+}
+.section-five h2 {
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: 800;
+  text-transform: capitalize;
+  font-size: 48px;
+  line-height: 120%;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #625261;
+}
+.section-five article {
+  width: 1150px;
+  margin: 80px auto;
+}
+.section-five article div {
+  width: 350px;
+  height: 300px;
+  background: #ffffff;
+  box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.15);
+  border-radius: 20px;
+  padding: 20px 30px;
+  margin: 30px 10px;
+}
+.section-five article div p {
+  font-size: 16px;
+  font-family: Nunito;
+  text-align: justify;
+  color: rgba(50, 50, 50, 0.7);
+}
+.section-five article div p span {
+  font-size: 20px;
+  font-family: "Nunito", sans-serif;
+  color: #89BEB3;
+}
+@media all and (max-width: 415px) {
+  .section-five h2 {
+    font-size: 28px;
+    font-size: 28px;
+  }
+  .section-five article {
+    width: 408px;
+    margin: 40px auto;
+  }
+  .section-five article div {
+    margin: 20px auto;
+  }
+}
+
+@media all and (max-width: 415px) {
+  .section-five {
+    margin-top: 70px;
+  }
+}
+.section-six h2 {
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: 800;
+  text-transform: capitalize;
+  font-size: 48px;
+  line-height: 120%;
+  /* or 48px */
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #625261;
+}
+.section-six article {
+  width: 75%;
+  margin: 90px auto;
+}
+.section-six article aside {
+  width: 45%;
+}
+.section-six article aside h4 {
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 55px;
+  line-height: 150%;
+  /* or 82px */
+  color: #625261;
+}
+.section-six article aside #accordion {
+  width: 100%;
+}
+.section-six article aside #accordion .card {
+  width: 100%;
+  margin: 15px auto;
+  border: none;
+}
+.section-six article aside #accordion .card .card-header {
+  width: 100%;
+  height: 70px;
+  background: #ffffff;
+  box-shadow: 1px 4px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  z-index: 99;
+}
+.section-six article aside #accordion .card .card-header h5 button {
+  position: relative;
+  display: block;
+  width: 100%;
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 120%;
+  /* or 19px */
+  text-align: justify;
+  color: #625261;
+  line-height: 35px;
+  text-decoration: none;
+}
+.section-six article aside #accordion .card .card-header h5 button img {
+  position: absolute;
+  right: 20px;
+  top: 15px;
+}
+.section-six article aside #accordion .card .card-body {
+  width: 100%;
+  background: #ffffff;
+  box-shadow: 1px 4px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding-top: 50px;
+  margin-top: -20px;
+  z-index: -1 !important;
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 120%;
+  /* or 19px */
+  text-align: justify;
+  color: #625261;
+  line-height: 25px;
+}
+.section-six article aside:nth-of-type(2) {
+  margin-left: auto;
+  width: 50%;
+}
+@media all and (max-width: 415px) {
+  .section-six h2 {
+    font-size: 32px;
+    margin-top: 50px;
+  }
+  .section-six article {
+    width: 96%;
+    margin: 10px auto 0;
+  }
+  .section-six article aside {
+    margin-top: 50px;
+    width: 100%;
+  }
+  .section-six article aside h4 {
+    font-size: 35px;
+    text-align: center;
+  }
+  .section-six article aside #accordion {
+    width: 95%;
     margin: 0 auto;
   }
 }
