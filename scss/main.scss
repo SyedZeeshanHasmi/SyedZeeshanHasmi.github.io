@@ -255,10 +255,15 @@ body {
     }
     @media all and (max-width: 415px){
         h2{
-            font-size: 30px;
+            font-size: 26px;
+            font-weight: 800;
+            text-transform: capitalize;
         }
         img{
-            width: 100%;
+            display: block;
+            width: 95%;
+            margin: 60px auto;
+            
         }
     }
 }
