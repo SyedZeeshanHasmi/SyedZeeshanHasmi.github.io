@@ -1,0 +1,252 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Nunito", sans-serif;
+}
+
+html,
+body {
+  width: 100%;
+}
+
+.navbar {
+  padding: 0 5%;
+  padding-top: 20px;
+}
+.navbar .navbar-nav {
+  margin-left: 40%;
+}
+.navbar .navbar-nav .nav-item {
+  margin: 0 35px;
+}
+.navbar .navbar-nav .nav-item .nav-link {
+  font-size: 18px;
+  font-family: "Roboto Condensed", sans-serif;
+  color: #625261;
+  transition: ease-in;
+  transition-duration: 0.8s;
+}
+.navbar .navbar-nav .nav-item .nav-link:hover {
+  transform: scale(1.05);
+  transition: ease-in;
+  transition-duration: 0.8s;
+}
+.navbar #contact {
+  display: inline-block;
+  width: 120px;
+  height: 55px;
+  border-radius: 10px 0 10px 10px;
+  background-color: #89BEB3;
+  box-shadow: 1px 4px 20px rgba(0, 0, 0, 0.2);
+  color: #E8E8E8;
+  line-height: 55px;
+  text-align: center;
+  margin-left: auto;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 18px;
+  text-decoration: none;
+}
+@media all and (max-width: 415px) {
+  .navbar .navbar-nav {
+    margin-left: 0%;
+    margin-top: 5%;
+  }
+  .navbar #contact {
+    margin-left: 8%;
+    margin-top: 10px;
+  }
+}
+@media all and (min-width: 415px) and (max-width: 1378px) {
+  .navbar .navbar-nav {
+    margin-left: 27%;
+  }
+  .navbar .navbar-nav .nav-item {
+    margin: 0 20px;
+  }
+  .navbar .navbar-nav .nav-item .nav-link {
+    font-size: 18px;
+  }
+}
+@media all and (min-width: 1378px) and (max-width: 1680px) {
+  .navbar .navbar-nav {
+    margin-left: 37%;
+  }
+  .navbar .navbar-nav .nav-item {
+    margin: 0 20px;
+  }
+  .navbar .navbar-nav .nav-item .nav-link {
+    font-size: 18px;
+  }
+}
+
+.section-one {
+  width: 80%;
+  margin: 5% auto;
+}
+.section-one .content-area {
+  width: 50%;
+}
+.section-one .content-area h1 {
+  margin-top: 150px;
+  font-size: 55px;
+  color: #625261;
+  font-family: Nunito;
+  font-weight: 600;
+  letter-spacing: 2%;
+}
+.section-one .content-area p {
+  margin-top: 8%;
+  font-size: 22px;
+  color: #625261;
+  opacity: 0.6;
+  font-family: Nunito;
+  font-weight: 700;
+  letter-spacing: 5%;
+}
+.section-one .content-area a {
+  margin-top: 30px;
+  display: inline-block;
+  width: 150px;
+  height: 55px;
+  left: calc(50% - 150px / 2 - 490px);
+  top: 632px;
+  background: #89beb3;
+  border-radius: 50px;
+  color: #E8E8E8;
+  text-decoration: none;
+  line-height: 55px;
+  font-size: 22px;
+  text-align: center;
+  font-family: Nunito;
+  font-weight: 900;
+  transition: ease-in;
+  transition-duration: 0.7s;
+}
+.section-one .content-area a:hover {
+  transform: scale(1.1);
+  transition: ease-in;
+  transition-duration: 0.7s;
+}
+.section-one .image-area {
+  width: 50%;
+}
+.section-one .image-area img {
+  display: block;
+  width: 80%;
+  margin-left: auto;
+}
+
+.small-defination {
+  width: 70%;
+  margin: 8% auto 6%;
+  list-style: none;
+  text-align: center;
+}
+.small-defination li {
+  display: inline-block;
+  width: 180px;
+  font-size: 18px;
+  font-family: Nunito;
+  font-weight: 700;
+  color: #625261;
+  border-right: 2px solid #625261;
+}
+.small-defination li:nth-of-type(5) {
+  border-right: none;
+}
+
+@media all and (max-width: 415px) {
+  .section-one {
+    width: 90%;
+    margin: 70px auto 30px;
+  }
+  .section-one .image-area {
+    width: 90%;
+  }
+  .section-one .image-area img {
+    margin: 0 auto;
+  }
+  .section-one .content-area {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .section-one .content-area h1 {
+    margin-top: 60px;
+    text-align: center;
+    font-size: 33px;
+  }
+  .section-one .content-area p {
+    text-align: center;
+    font-size: 17px;
+  }
+  .section-one .content-area a {
+    display: block;
+    margin: 30px auto 5px;
+    font-size: 18px;
+    color: #ffffff;
+  }
+
+  .small-defination {
+    width: 90%;
+    margin: 0 auto 60px;
+  }
+  .small-defination li {
+    text-align: center;
+    font-size: 16px;
+    width: 120px;
+    margin-top: 20px;
+    border-right: none;
+  }
+}
+@media all and (min-width: 415px) and (max-width: 1387px) {
+  .section-one .content-area h1 {
+    font-size: 39px;
+    margin-top: 80px;
+  }
+  .section-one .content-area p {
+    font-size: 18px;
+  }
+  .section-one .content-area a {
+    font-size: 18px;
+  }
+}
+@media all and (min-width: 1387px) and (max-width: 1680px) {
+  .section-one .content-area h1 {
+    font-size: 45px;
+    margin-top: 80px;
+  }
+  .section-one .content-area p {
+    font-size: 20px;
+    letter-spacing: 5%;
+  }
+  .section-one .content-area a {
+    font-size: 20px;
+    color: #ffffff;
+  }
+}
+.section-two h2 {
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 48px;
+  line-height: 120%;
+  /* or 48px */
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #625261;
+}
+.section-two img {
+  display: block;
+  width: 60%;
+  margin: 5% auto;
+}
+@media all and (max-width: 415px) {
+  .section-two h2 {
+    font-size: 30px;
+  }
+  .section-two img {
+    width: 100%;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */

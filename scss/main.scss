@@ -1,0 +1,264 @@
+// Import File here
+@import "variable.scss";
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Nunito", sans-serif;
+}
+html,
+body {
+    width: 100%;
+}
+
+.navbar {
+    padding: 0 5%;
+    padding-top: 20px;
+
+    .navbar-nav {
+        margin-left: 40%;
+        .nav-item {
+            margin: 0 35px;
+            .nav-link {
+                font-size: 18px;
+                font-family: "Roboto Condensed", sans-serif;
+                color: $primary-color;
+                transition: ease-in;
+                transition-duration: 0.8s;
+                &:hover {
+                    transform: scale(1.05);
+                    transition: ease-in;
+                    transition-duration: 0.8s;
+                }
+            }
+        }
+    }
+    #contact {
+        display: inline-block;
+        width: 120px;
+        height: 55px;
+        border-radius: 10px 0 10px 10px;
+        background-color: $secondary-color;
+        box-shadow: 1px 4px 20px rgba(0, 0, 0, 0.2);
+        color: $white-version;
+        line-height: 55px;
+        text-align: center;
+        margin-left: auto;
+        font-family: "Roboto Condensed", sans-serif;
+        font-size: 18px;
+        text-decoration: none;
+    }
+    @media all and (max-width: 415px) {
+        .navbar-nav {
+            margin-left: 0%;
+            margin-top: 5%;
+        }
+        #contact {
+            margin-left: 8%;
+            margin-top: 10px;
+        }
+    }
+    @media all and (min-width: 415px) and (max-width: 1378px) {
+        .navbar-nav {
+            margin-left: 27%;
+            .nav-item {
+                margin: 0 20px;
+                .nav-link {
+                    font-size: 18px;
+                }
+            }
+        }
+    }
+    @media all and (min-width: 1378px) and (max-width: 1680px) {
+        .navbar-nav {
+            margin-left: 37%;
+            .nav-item {
+                margin: 0 20px;
+                .nav-link {
+                    font-size: 18px;
+                }
+            }
+        }
+    }
+}
+
+.section-one {
+    width: 80%;
+    margin: 5% auto;
+    .content-area {
+        width: 50%;
+        h1 {
+            margin-top: 150px;
+            font-size: 55px;
+            color: $primary-color;
+            font-family: Nunito;
+            font-weight: 600;
+            letter-spacing: 2%;
+        }
+        p {
+            margin-top: 8%;
+            font-size: 22px;
+            color: $primary-color;
+            opacity: 0.6;
+            font-family: Nunito;
+            font-weight: 700;
+            letter-spacing: 5%;
+        }
+        a {
+            margin-top: 30px;
+            display: inline-block;
+            width: 150px;
+            height: 55px;
+            left: calc(50% - 150px / 2 - 490px);
+            top: 632px;
+            background: #89beb3;
+            border-radius: 50px;
+            color: $white-version;
+            text-decoration: none;
+            line-height: 55px;
+            font-size: 22px;
+            text-align: center;
+            font-family: Nunito;
+            font-weight: 900;
+            transition: ease-in;
+            transition-duration: 0.7s;
+            &:hover {
+                transform: scale(1.1);
+                transition: ease-in;
+                transition-duration: 0.7s;
+            }
+        }
+    }
+    .image-area {
+        width: 50%;
+        img {
+            display: block;
+            width: 80%;
+            margin-left: auto;
+        }
+    }
+}
+.small-defination {
+    width: 70%;
+    margin: 8% auto 6%;
+    list-style: none;
+    text-align: center;
+    li {
+        display: inline-block;
+        width: 180px;
+        font-size: 18px;
+        font-family: Nunito;
+        font-weight: 700;
+        color: $primary-color;
+        border-right: 2px solid $primary-color;
+
+        &:nth-of-type(5) {
+            border-right: none;
+        }
+    }
+}
+@media all and (max-width: 415px) {
+    .section-one {
+        width: 90%;
+        margin: 70px auto 30px;
+
+        .image-area {
+            width: 90%;
+            img {
+                margin: 0 auto;
+            }
+        }
+        .content-area {
+            width: 90%;
+            margin: 0 auto;
+            h1 {
+                margin-top: 60px;
+                text-align: center;
+                font-size: 33px;
+            }
+            p {
+                text-align: center;
+                font-size: 17px;
+            }
+            a {
+                display: block;
+                margin: 30px auto 5px;
+                font-size: 18px;
+                color: #ffffff;
+            }
+        }
+    }
+    .small-defination{
+        width: 90%;
+        margin: 0 auto 60px;
+        li{
+            text-align: center;
+            font-size: 16px;
+            width: 120px;
+            margin-top: 20px;
+            border-right: none;
+        }
+    }
+}
+@media all and (min-width: 415px) and (max-width: 1387px) {
+    .section-one {
+        .content-area {
+            h1 {
+                font-size: 39px;
+                margin-top: 80px;
+            }
+            p {
+                font-size: 18px;
+            }
+            a {
+                font-size: 18px;
+            }
+        }
+    }
+}
+@media all and (min-width: 1387px) and (max-width: 1680px) {
+    .section-one {
+        .content-area {
+            h1 {
+                font-size: 45px;
+                margin-top: 80px;
+            }
+            p {
+                font-size: 20px;
+                letter-spacing: 5%;
+            }
+            a {
+                font-size: 20px;
+                color: #ffffff;
+            }
+        }
+    }
+}
+
+
+.section-two {
+    h2 {
+        font-family: Nunito;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 48px;
+        line-height: 120%;
+        /* or 48px */
+        text-align: center;
+        letter-spacing: 0.03em;
+        color: $primary-color;
+    }
+    img{
+        display: block;
+        width: 60%;
+        margin: 5% auto;
+    }
+    @media all and (max-width: 415px){
+        h2{
+            font-size: 30px;
+        }
+        img{
+            width: 100%;
+        }
+    }
+}
