@@ -453,7 +453,7 @@ body {
     font-size: 28px;
   }
   .section-five article {
-    width: 408px;
+    width: 95%;
     margin: 40px auto;
   }
   .section-five article div {
@@ -464,6 +464,7 @@ body {
 @media all and (max-width: 415px) {
   .section-five {
     margin-top: 70px;
+    overflow-x: hidden;
   }
 }
 .section-six {
