@@ -696,7 +696,9 @@ body {
                 }
             }
             p {
+                margin: 0 auto;
                 font-size: 24px;
+                text-align: center;
             }
         }
     }
@@ -782,6 +784,7 @@ body {
 }
 @media all and (max-width: 415px) {
     .footer-all {
+        overflow-x: hidden;
         height: 1100px;
         div {
             width: 300px;

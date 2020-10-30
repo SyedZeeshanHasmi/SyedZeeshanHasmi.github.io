@@ -657,7 +657,9 @@ body {
     width: 100%;
   }
   .section-seven div p {
+    margin: 0 auto;
     font-size: 24px;
+    text-align: center;
   }
 }
 .footer-all {
@@ -733,6 +735,7 @@ body {
 
 @media all and (max-width: 415px) {
   .footer-all {
+    overflow-x: hidden;
     height: 1100px;
   }
   .footer-all div {
